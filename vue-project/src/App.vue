@@ -9,7 +9,7 @@ const year = new Date().getFullYear();
       <h1>hello world, {{ message }}</h1>
     </main>
     <footer>
-      <p>Copyright {{ year }}</p>
+      <p>Copyright {{ year }}.</p>
     </footer>
   </div>
 </template>
