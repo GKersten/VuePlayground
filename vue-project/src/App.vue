@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const message = "Vue";
-const year3 = new Date().getFullYear();
+const year = new Date().getFullYear();
 </script>
 
 <template>
@@ -9,7 +9,7 @@ const year3 = new Date().getFullYear();
       <h1>hello world, {{ message }}</h1>
     </main>
     <footer>
-      <p>Copyright {{ year3 }}.</p>
+      <p>Copyright {{ year }}.</p>
     </footer>
   </div>
 </template>
