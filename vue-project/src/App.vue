@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const message = "Vue test 2";
+const message = "Vue";
 const year = new Date().getFullYear();
 </script>
 
