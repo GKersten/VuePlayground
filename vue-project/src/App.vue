@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const message = "Vue";
-const copyRightYear = new Date().getFullYear();
+const year = new Date().getFullYear();
 </script>
 
 <template>
@@ -9,7 +9,7 @@ const copyRightYear = new Date().getFullYear();
       <h1>hello world, {{ message }}</h1>
     </main>
     <footer>
-      <p>Copyright {{ copyRightYear }}</p>
+      <p>Copyright {{ year }}.</p>
     </footer>
   </div>
 </template>
