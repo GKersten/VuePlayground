@@ -49,7 +49,7 @@ updates:
     schedule:
       interval: "weekly"
       day: "monday"
-      time: "06:30"
+      time: "06:00"
       timezone: "Europe/Amsterdam"
     labels:
       - "dependencies"
