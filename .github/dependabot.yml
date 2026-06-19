@@ -14,7 +14,7 @@ updates:
     commit-message:
       prefix: "chore(deps)"
     groups:
-      npm-minor-and-patch:
+      npm-general-updates:
         patterns:
           - "*"
         exclude-patterns:
@@ -32,11 +32,17 @@ updates:
           - "vite"
           - "@vitejs/*"
           - "vite-plugin-*"
+        update-types:
+          - "minor"
+          - "patch"
       vue-stack:
         patterns:
           - "vue"
           - "@vue/*"
           - "vue-*"
+        update-types:
+          - "minor"
+          - "patch"
 
   - package-ecosystem: "github-actions"
     directory: "/"
