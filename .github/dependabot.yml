@@ -17,6 +17,13 @@ updates:
       npm-minor-and-patch:
         patterns:
           - "*"
+        exclude-patterns:
+          - "vite"
+          - "@vitejs/*"
+          - "vite-plugin-*"
+          - "vue"
+          - "@vue/*"
+          - "vue-*"
         update-types:
           - "minor"
           - "patch"
