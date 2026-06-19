@@ -6,7 +6,7 @@ updates:
       interval: "weekly"
       day: "monday"
       time: "06:00"
-      timezone: "UTC"
+      timezone: "Europe/Amsterdam"
     open-pull-requests-limit: 8
     labels:
       - "dependencies"
@@ -49,8 +49,8 @@ updates:
     schedule:
       interval: "weekly"
       day: "monday"
-      time: "06:30"
-      timezone: "UTC"
+      time: "06:00"
+      timezone: "Europe/Amsterdam"
     labels:
       - "dependencies"
       - "github-actions"
